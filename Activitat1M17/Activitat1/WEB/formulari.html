@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Gym</title>
+		<link rel="shortcut icon" href="img/icono_pesas.png">
+		<link rel="stylesheet" href="gym.css">
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="titulo">
+				<img src="img/LogoEmpresa.png">
+			</div>
+		</div>
+		<div class="menu">
+			<div class="menu_container">	
+				<ul class="nav">
+					<li><a href="index.html">GIMNASIO</a></li>
+					<li><a href="ejercicios.html">EJERCICIOS</a></li>
+					<li><a href="nutricion.html">NUTRICIÓN</a></li>
+					<li><a href="formulari.html">INICIAR SESIÓN</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="centrar">
+		<h2>INICIO DE SESIÓN</h2>
+			<form action="formulari.php" method="POST">
+  				<label for="fname">Usuari:</label><br>
+  				<input type="text" id="fname" name="fname" value=""><br>
+  				<label for="lname">Contrasenya:</label><br>
+  				<input type="password" id="lname" name="lname" value=""><br><br>
+  				<input type="submit" value="Accedir">
+			</form>
+		</div> 
+		</body>
+</html>
